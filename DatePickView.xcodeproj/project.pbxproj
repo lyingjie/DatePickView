@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C6331085E762943DA0BB97 /* libPods-DatePickView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69204631994D082DB0C4626A /* libPods-DatePickView.a */; };
+		D636DB0C20E2431500F40DB8 /* UIView+Catgory.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */; };
 		D687405220E236830076E9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405120E236830076E9DA /* AppDelegate.m */; };
 		D687405520E236830076E9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405420E236830076E9DA /* ViewController.m */; };
 		D687405820E236830076E9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687405620E236830076E9DA /* Main.storyboard */; };
 		D687405A20E236840076E9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D687405920E236840076E9DA /* Assets.xcassets */; };
 		D687405D20E236850076E9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687405B20E236840076E9DA /* LaunchScreen.storyboard */; };
 		D687406020E236850076E9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405F20E236850076E9DA /* main.m */; };
+		D687406C20E238150076E9DA /* DatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406820E238140076E9DA /* DatePickView.m */; };
+		D687406D20E238150076E9DA /* TimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406A20E238150076E9DA /* TimePickView.m */; };
+		D687406E20E238150076E9DA /* SingleLinePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406B20E238150076E9DA /* SingleLinePickView.m */; };
+		D687407120E2382A0076E9DA /* PickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406F20E2382A0076E9DA /* PickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B758526F8AA9781BB0C409D /* Pods-DatePickView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView.release.xcconfig"; sourceTree = "<group>"; };
+		69204631994D082DB0C4626A /* libPods-DatePickView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DatePickView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D636DB0A20E2431500F40DB8 /* UIView+Catgory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Catgory.h"; sourceTree = "<group>"; };
+		D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Catgory.m"; sourceTree = "<group>"; };
 		D687404D20E236830076E9DA /* DatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D687405020E236830076E9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D687405120E236830076E9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,15 @@
 		D687405C20E236840076E9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D687405E20E236850076E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D687405F20E236850076E9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D687406620E238140076E9DA /* SingleLinePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinePickView.h; sourceTree = "<group>"; };
+		D687406720E238140076E9DA /* DatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickView.h; sourceTree = "<group>"; };
+		D687406820E238140076E9DA /* DatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickView.m; sourceTree = "<group>"; };
+		D687406920E238140076E9DA /* TimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickView.h; sourceTree = "<group>"; };
+		D687406A20E238150076E9DA /* TimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickView.m; sourceTree = "<group>"; };
+		D687406B20E238150076E9DA /* SingleLinePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickView.m; sourceTree = "<group>"; };
+		D687406F20E2382A0076E9DA /* PickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickView.m; sourceTree = "<group>"; };
+		D687407020E2382A0076E9DA /* PickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickView.h; sourceTree = "<group>"; };
+		E2CE3B91C2B9EF88BE7E6478 /* Pods-DatePickView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C6331085E762943DA0BB97 /* libPods-DatePickView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +64,8 @@
 			children = (
 				D687404F20E236830076E9DA /* DatePickView */,
 				D687404E20E236830076E9DA /* Products */,
+				DD75D38E2CEBF472886ADE5A /* Pods */,
+				EFFFD6F767157C9BB25CF741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +84,16 @@
 				D687405120E236830076E9DA /* AppDelegate.m */,
 				D687405320E236830076E9DA /* ViewController.h */,
 				D687405420E236830076E9DA /* ViewController.m */,
+				D687406720E238140076E9DA /* DatePickView.h */,
+				D687406820E238140076E9DA /* DatePickView.m */,
+				D687406620E238140076E9DA /* SingleLinePickView.h */,
+				D687406B20E238150076E9DA /* SingleLinePickView.m */,
+				D687406920E238140076E9DA /* TimePickView.h */,
+				D687406A20E238150076E9DA /* TimePickView.m */,
+				D687407020E2382A0076E9DA /* PickView.h */,
+				D687406F20E2382A0076E9DA /* PickView.m */,
+				D636DB0A20E2431500F40DB8 /* UIView+Catgory.h */,
+				D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */,
 				D687405620E236830076E9DA /* Main.storyboard */,
 				D687405920E236840076E9DA /* Assets.xcassets */,
 				D687405B20E236840076E9DA /* LaunchScreen.storyboard */,
@@ -71,6 +103,23 @@
 			path = DatePickView;
 			sourceTree = "<group>";
 		};
+		DD75D38E2CEBF472886ADE5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2CE3B91C2B9EF88BE7E6478 /* Pods-DatePickView.debug.xcconfig */,
+				1B758526F8AA9781BB0C409D /* Pods-DatePickView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFFFD6F767157C9BB25CF741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69204631994D082DB0C4626A /* libPods-DatePickView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D687406320E236850076E9DA /* Build configuration list for PBXNativeTarget "DatePickView" */;
 			buildPhases = (
+				901A32E47B16D07876D16B07 /* [CP] Check Pods Manifest.lock */,
 				D687404920E236830076E9DA /* Sources */,
 				D687404A20E236830076E9DA /* Frameworks */,
 				D687404B20E236830076E9DA /* Resources */,
+				65C36328FB543364927A892D /* [CP] Embed Pods Frameworks */,
+				F21645ABE65755F045EAE914 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,12 +188,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65C36328FB543364927A892D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901A32E47B16D07876D16B07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatePickView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21645ABE65755F045EAE914 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D687404920E236830076E9DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D636DB0C20E2431500F40DB8 /* UIView+Catgory.m in Sources */,
+				D687407120E2382A0076E9DA /* PickView.m in Sources */,
+				D687406D20E238150076E9DA /* TimePickView.m in Sources */,
+				D687406E20E238150076E9DA /* SingleLinePickView.m in Sources */,
 				D687405520E236830076E9DA /* ViewController.m in Sources */,
+				D687406C20E238150076E9DA /* DatePickView.m in Sources */,
 				D687406020E236850076E9DA /* main.m in Sources */,
 				D687405220E236830076E9DA /* AppDelegate.m in Sources */,
 			);
@@ -281,35 +389,39 @@
 		};
 		D687406420E236850076E9DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CE3B91C2B9EF88BE7E6478 /* Pods-DatePickView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65K6YH88U7;
 				INFOPLIST_FILE = DatePickView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotherlee.DatePickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D687406520E236850076E9DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B758526F8AA9781BB0C409D /* Pods-DatePickView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65K6YH88U7;
 				INFOPLIST_FILE = DatePickView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotherlee.DatePickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
