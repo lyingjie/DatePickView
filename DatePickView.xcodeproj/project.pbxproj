@@ -8,42 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		38C6331085E762943DA0BB97 /* libPods-DatePickView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69204631994D082DB0C4626A /* libPods-DatePickView.a */; };
-		D636DB0C20E2431500F40DB8 /* UIView+Catgory.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */; };
+		D636DB1A20E2498500F40DB8 /* TimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB0F20E2498500F40DB8 /* TimePickView.m */; };
+		D636DB1B20E2498500F40DB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB1120E2498500F40DB8 /* ViewController.m */; };
+		D636DB1C20E2498500F40DB8 /* DatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB1220E2498500F40DB8 /* DatePickView.m */; };
+		D636DB1D20E2498500F40DB8 /* SingleLinePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB1320E2498500F40DB8 /* SingleLinePickView.m */; };
+		D636DB1E20E2498500F40DB8 /* UIView+Catgory.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB1420E2498500F40DB8 /* UIView+Catgory.m */; };
+		D636DB1F20E2498500F40DB8 /* PickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D636DB1620E2498500F40DB8 /* PickView.m */; };
 		D687405220E236830076E9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405120E236830076E9DA /* AppDelegate.m */; };
-		D687405520E236830076E9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405420E236830076E9DA /* ViewController.m */; };
 		D687405820E236830076E9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687405620E236830076E9DA /* Main.storyboard */; };
 		D687405A20E236840076E9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D687405920E236840076E9DA /* Assets.xcassets */; };
 		D687405D20E236850076E9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687405B20E236840076E9DA /* LaunchScreen.storyboard */; };
 		D687406020E236850076E9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D687405F20E236850076E9DA /* main.m */; };
-		D687406C20E238150076E9DA /* DatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406820E238140076E9DA /* DatePickView.m */; };
-		D687406D20E238150076E9DA /* TimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406A20E238150076E9DA /* TimePickView.m */; };
-		D687406E20E238150076E9DA /* SingleLinePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406B20E238150076E9DA /* SingleLinePickView.m */; };
-		D687407120E2382A0076E9DA /* PickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D687406F20E2382A0076E9DA /* PickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B758526F8AA9781BB0C409D /* Pods-DatePickView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView.release.xcconfig"; sourceTree = "<group>"; };
 		69204631994D082DB0C4626A /* libPods-DatePickView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DatePickView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D636DB0A20E2431500F40DB8 /* UIView+Catgory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Catgory.h"; sourceTree = "<group>"; };
-		D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Catgory.m"; sourceTree = "<group>"; };
+		D636DB0E20E2498500F40DB8 /* UIView+Catgory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Catgory.h"; sourceTree = "<group>"; };
+		D636DB0F20E2498500F40DB8 /* TimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickView.m; sourceTree = "<group>"; };
+		D636DB1020E2498500F40DB8 /* PickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickView.h; sourceTree = "<group>"; };
+		D636DB1120E2498500F40DB8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D636DB1220E2498500F40DB8 /* DatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickView.m; sourceTree = "<group>"; };
+		D636DB1320E2498500F40DB8 /* SingleLinePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickView.m; sourceTree = "<group>"; };
+		D636DB1420E2498500F40DB8 /* UIView+Catgory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Catgory.m"; sourceTree = "<group>"; };
+		D636DB1520E2498500F40DB8 /* TimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickView.h; sourceTree = "<group>"; };
+		D636DB1620E2498500F40DB8 /* PickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickView.m; sourceTree = "<group>"; };
+		D636DB1720E2498500F40DB8 /* SingleLinePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinePickView.h; sourceTree = "<group>"; };
+		D636DB1820E2498500F40DB8 /* DatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickView.h; sourceTree = "<group>"; };
+		D636DB1920E2498500F40DB8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D687404D20E236830076E9DA /* DatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D687405020E236830076E9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D687405120E236830076E9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D687405320E236830076E9DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D687405420E236830076E9DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D687405720E236830076E9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D687405920E236840076E9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D687405C20E236840076E9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D687405E20E236850076E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D687405F20E236850076E9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D687406620E238140076E9DA /* SingleLinePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinePickView.h; sourceTree = "<group>"; };
-		D687406720E238140076E9DA /* DatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickView.h; sourceTree = "<group>"; };
-		D687406820E238140076E9DA /* DatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickView.m; sourceTree = "<group>"; };
-		D687406920E238140076E9DA /* TimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickView.h; sourceTree = "<group>"; };
-		D687406A20E238150076E9DA /* TimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickView.m; sourceTree = "<group>"; };
-		D687406B20E238150076E9DA /* SingleLinePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickView.m; sourceTree = "<group>"; };
-		D687406F20E2382A0076E9DA /* PickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickView.m; sourceTree = "<group>"; };
-		D687407020E2382A0076E9DA /* PickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickView.h; sourceTree = "<group>"; };
 		E2CE3B91C2B9EF88BE7E6478 /* Pods-DatePickView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatePickView/Pods-DatePickView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +59,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D636DB0D20E2498500F40DB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D636DB0E20E2498500F40DB8 /* UIView+Catgory.h */,
+				D636DB0F20E2498500F40DB8 /* TimePickView.m */,
+				D636DB1020E2498500F40DB8 /* PickView.h */,
+				D636DB1120E2498500F40DB8 /* ViewController.m */,
+				D636DB1220E2498500F40DB8 /* DatePickView.m */,
+				D636DB1320E2498500F40DB8 /* SingleLinePickView.m */,
+				D636DB1420E2498500F40DB8 /* UIView+Catgory.m */,
+				D636DB1520E2498500F40DB8 /* TimePickView.h */,
+				D636DB1620E2498500F40DB8 /* PickView.m */,
+				D636DB1720E2498500F40DB8 /* SingleLinePickView.h */,
+				D636DB1820E2498500F40DB8 /* DatePickView.h */,
+				D636DB1920E2498500F40DB8 /* ViewController.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D687404420E236830076E9DA = {
 			isa = PBXGroup;
 			children = (
@@ -82,18 +101,7 @@
 			children = (
 				D687405020E236830076E9DA /* AppDelegate.h */,
 				D687405120E236830076E9DA /* AppDelegate.m */,
-				D687405320E236830076E9DA /* ViewController.h */,
-				D687405420E236830076E9DA /* ViewController.m */,
-				D687406720E238140076E9DA /* DatePickView.h */,
-				D687406820E238140076E9DA /* DatePickView.m */,
-				D687406620E238140076E9DA /* SingleLinePickView.h */,
-				D687406B20E238150076E9DA /* SingleLinePickView.m */,
-				D687406920E238140076E9DA /* TimePickView.h */,
-				D687406A20E238150076E9DA /* TimePickView.m */,
-				D687407020E2382A0076E9DA /* PickView.h */,
-				D687406F20E2382A0076E9DA /* PickView.m */,
-				D636DB0A20E2431500F40DB8 /* UIView+Catgory.h */,
-				D636DB0B20E2431500F40DB8 /* UIView+Catgory.m */,
+				D636DB0D20E2498500F40DB8 /* Classes */,
 				D687405620E236830076E9DA /* Main.storyboard */,
 				D687405920E236840076E9DA /* Assets.xcassets */,
 				D687405B20E236840076E9DA /* LaunchScreen.storyboard */,
@@ -244,14 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D636DB0C20E2431500F40DB8 /* UIView+Catgory.m in Sources */,
-				D687407120E2382A0076E9DA /* PickView.m in Sources */,
-				D687406D20E238150076E9DA /* TimePickView.m in Sources */,
-				D687406E20E238150076E9DA /* SingleLinePickView.m in Sources */,
-				D687405520E236830076E9DA /* ViewController.m in Sources */,
-				D687406C20E238150076E9DA /* DatePickView.m in Sources */,
 				D687406020E236850076E9DA /* main.m in Sources */,
+				D636DB1E20E2498500F40DB8 /* UIView+Catgory.m in Sources */,
+				D636DB1D20E2498500F40DB8 /* SingleLinePickView.m in Sources */,
+				D636DB1A20E2498500F40DB8 /* TimePickView.m in Sources */,
+				D636DB1B20E2498500F40DB8 /* ViewController.m in Sources */,
+				D636DB1C20E2498500F40DB8 /* DatePickView.m in Sources */,
 				D687405220E236830076E9DA /* AppDelegate.m in Sources */,
+				D636DB1F20E2498500F40DB8 /* PickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
