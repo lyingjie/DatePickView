@@ -62,18 +62,18 @@
 		D636DB0D20E2498500F40DB8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D636DB0E20E2498500F40DB8 /* UIView+Catgory.h */,
+				D636DB1920E2498500F40DB8 /* ViewController.h */,
+				D636DB1120E2498500F40DB8 /* ViewController.m */,
+				D636DB1720E2498500F40DB8 /* SingleLinePickView.h */,
+				D636DB1320E2498500F40DB8 /* SingleLinePickView.m */,
+				D636DB1520E2498500F40DB8 /* TimePickView.h */,
 				D636DB0F20E2498500F40DB8 /* TimePickView.m */,
 				D636DB1020E2498500F40DB8 /* PickView.h */,
-				D636DB1120E2498500F40DB8 /* ViewController.m */,
-				D636DB1220E2498500F40DB8 /* DatePickView.m */,
-				D636DB1320E2498500F40DB8 /* SingleLinePickView.m */,
-				D636DB1420E2498500F40DB8 /* UIView+Catgory.m */,
-				D636DB1520E2498500F40DB8 /* TimePickView.h */,
 				D636DB1620E2498500F40DB8 /* PickView.m */,
-				D636DB1720E2498500F40DB8 /* SingleLinePickView.h */,
 				D636DB1820E2498500F40DB8 /* DatePickView.h */,
-				D636DB1920E2498500F40DB8 /* ViewController.h */,
+				D636DB1220E2498500F40DB8 /* DatePickView.m */,
+				D636DB0E20E2498500F40DB8 /* UIView+Catgory.h */,
+				D636DB1420E2498500F40DB8 /* UIView+Catgory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
